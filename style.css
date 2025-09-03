@@ -63,7 +63,7 @@ header ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(img/bg-hero.jpg);
+    background-image: url(picture/bg-hero.jpg);
     background-position: center;
 }
 
