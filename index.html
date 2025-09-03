@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Anjar Wilujeng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi -->
+    <header>
+        <h1>My portofolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#project">project</a></li>   
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Anjar wilujeng</h2>
+            <p>Saya sedang belajar web programmer menggunakan HTML dan CSS</p>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="judulSection">Tentang saya</h2>
+            <div class="containerAbout">
+                <figure>
+                    <img src="picture/saya.png" alt="gambar saya" width="600" height="600" loading="lazy">
+                </figure>
+
+                <div class="biografi">
+                    <p>Saya sedang berusaha menjadi Web Developer. Sekarang saya sedang belajar HTML dan CSS dasar.</p>
+                    <p>Walaupun umur sudah terbilang banyak, tapi saya masih terus belajar.</p>
+                    <p>Setelah HTML dan CSS ini selesai akan saya lanjutkan untuk mempelajari JAVASCRIPT.</p>
+                    <p>Semoga apa yang saya usahakan ini diberikan keberkahan oleh Allah subhanahuwata'ala.</p>
+                    <p>Dan apabila saya berhasil dalam belajar, semua ini adalah pertolongan dari Allah subhawahuwata'ala.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="project" class="project">
+            <h2 class="judulSection">Project</h2>
+
+            <div class="containerProject">
+                <div class="card">
+                    <figure>
+                        <img src="picture/contohportofolio.jpeg" alt="contoh web portofolio">
+                    </figure>
+                    <h3>Website Portofolio</h3>
+                    <p>Ini adalah contoh web portofolio yang saya ambil dari internet. Karena belum ada project sungguhan. InsyaAllah akan segera menyusul untuk project yang benar benar sudah saya kerjakan sendiri.</p>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="picture/contohcard.webp" alt="contoh card">
+                    </figure>
+                    <h3>Website Card</h3>
+                    <p>Ini adalah contoh web portofolio yang saya ambil dari internet. Karena belum ada project sungguhan. InsyaAllah akan segera menyusul untuk project yang benar benar sudah saya kerjakan sendiri.</p>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="picture/contoh-landing-page-kasir.webp" alt="contoh landing page">
+                    </figure>
+                    <h3>Website Landing Page</h3>
+                    <p>Ini adalah contoh web portofolio yang saya ambil dari internet. Karena belum ada project sungguhan. InsyaAllah akan segera menyusul untuk project yang benar benar sudah saya kerjakan sendiri.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="judulSection">Kontak kami:</h2>
+            <form action="" method="POST">
+
+                <p>
+                    <label for="nama">Nama :</label>
+                    <input type="text" id="nama" name="nama" placeholder="fulan bin fulan" required>
+                </p>
+
+                <p>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" placeholder="contoh@gmail.com" required>
+                </p>
+                
+                <p>
+                    <label for="pesan">Pesan :</label>
+                    <br>
+                    <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="tulis pesanmu disini"></textarea>
+                </p>
+                <button type="submit">KIRIM</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>&copy; 2025 My Website</footer>
+</body>
+</html>
